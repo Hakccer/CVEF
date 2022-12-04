@@ -1,0 +1,53 @@
+.logs {
+    color: #272727;
+    animation: r_to_l infinite 2s;
+    font-size: 100px;
+}
+
+.loggers {
+    color: black;
+    padding: 7px;
+    font-size: '23px';
+}
+
+::-moz-placeholder {
+    color: black;
+}
+
+.for_gods {
+    color: white;
+}
+
+.for_gods::placeholder {
+    color: white;
+}
+
+.buggus {
+    margin-left: calc(50% - 50px);
+    animation: ro_bug infinite 3s;
+    margin-bottom: 20px;
+}
+
+@keyframes ro_bug {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes r_to_l {
+    0% {
+        margin-left: 0px;
+    }
+
+    50% {
+        margin-left: 60%;
+    }
+
+    100% {
+        margin-left: 0px;
+    }
+}
